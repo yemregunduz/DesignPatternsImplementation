@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{F8D38628-C68D-49F2-BB16-77ABA56B0D9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{96F040C7-9FD5-4F2F-B728-074DFF7BB6BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{7A5D7199-7221-4B48-A889-24A33C732BC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{F8D38628-C68D-49F2-BB16-77ABA56B0D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8D38628-C68D-49F2-BB16-77ABA56B0D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8D38628-C68D-49F2-BB16-77ABA56B0D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96F040C7-9FD5-4F2F-B728-074DFF7BB6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96F040C7-9FD5-4F2F-B728-074DFF7BB6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96F040C7-9FD5-4F2F-B728-074DFF7BB6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96F040C7-9FD5-4F2F-B728-074DFF7BB6BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A5D7199-7221-4B48-A889-24A33C732BC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A5D7199-7221-4B48-A889-24A33C732BC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A5D7199-7221-4B48-A889-24A33C732BC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A5D7199-7221-4B48-A889-24A33C732BC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
