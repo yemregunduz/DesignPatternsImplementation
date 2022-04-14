@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Deco
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{52AD5070-3FF8-479C-BFCD-5F1253564777}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{9B1EEB52-7A21-4DD3-9C82-D1B0B754FF51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{7E91A8BD-A663-4D79-A06D-7640A24875CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{52AD5070-3FF8-479C-BFCD-5F1253564777}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52AD5070-3FF8-479C-BFCD-5F1253564777}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52AD5070-3FF8-479C-BFCD-5F1253564777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B1EEB52-7A21-4DD3-9C82-D1B0B754FF51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B1EEB52-7A21-4DD3-9C82-D1B0B754FF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B1EEB52-7A21-4DD3-9C82-D1B0B754FF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B1EEB52-7A21-4DD3-9C82-D1B0B754FF51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E91A8BD-A663-4D79-A06D-7640A24875CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E91A8BD-A663-4D79-A06D-7640A24875CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E91A8BD-A663-4D79-A06D-7640A24875CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E91A8BD-A663-4D79-A06D-7640A24875CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
