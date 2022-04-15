@@ -15,6 +15,7 @@ namespace Multiton
             Console.WriteLine(canonCamera2.Id);
             Console.WriteLine(nikonCamera1.Id);
             Console.WriteLine(nikonCamera2.Id);
+            //The id of the first canon/nikon object we created and the second canon/nikon object we created are the same. Because we created a single instance for each.
         }
     }
     class Camera
