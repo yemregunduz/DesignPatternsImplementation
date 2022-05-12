@@ -7,20 +7,28 @@ namespace FactoryMethod
         static void Main(string[] args)
         {
             CustomerManager customerManager = new CustomerManager(new LoggerFactory());
-            customerManager.Save();
+            customerManager.Save(LoggerType.YegLogger);
             Console.ReadLine();
         }
     }
     public class LoggerFactory : ILoggerFactory
     {
-        public ILogger CreateLogger()
+        public ILogger CreateLogger(LoggerType loggerType)
         {
-            return new YegLogger();
+            if (loggerType == LoggerType.YegLogger )
+            {
+                return new YegLogger();
+            }
+            else if(loggerType == LoggerType.YtuLogger)
+            {
+                return new YtuLogger();
+            }
+            return null;
         }
     }
     public interface ILoggerFactory
     {
-        public ILogger CreateLogger();
+        public ILogger CreateLogger(LoggerType loggerType);
     }
 
     public interface ILogger
@@ -48,10 +56,15 @@ namespace FactoryMethod
         {
             _loggerFactory = loggerFactory;
         }
-        public void Save()
+        public void Save(LoggerType loggerType)
         {
-            var logger = _loggerFactory.CreateLogger();
+            var logger = _loggerFactory.CreateLogger(loggerType);
             logger.Log();
         }
+    }
+    public enum LoggerType
+    {
+        YegLogger,
+        YtuLogger
     }
 }
